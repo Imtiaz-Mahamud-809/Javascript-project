@@ -1,4 +1,4 @@
-alert("Thank You For Visiting");
+// alert("Thank You For Visiting");
 
 // console.log("I Am Totally Connected");
 
