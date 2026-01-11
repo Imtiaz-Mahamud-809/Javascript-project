@@ -1,4 +1,4 @@
-// Grading System with vanila javascrpt
+
 
 let marks = -76;
 if (marks > 100 || marks < 0) {
@@ -21,9 +21,7 @@ if (marks > 100 || marks < 0) {
   console.log("Your are failed!!");
 }
 
-// Grading system end here
 
-// Males Marrige System  in Bangladesh
 
 let gender = "Male";
 let minIncome = 100000;
@@ -46,4 +44,4 @@ if (gender !== "Male") {
 } else {
   console.log("Congratulation you qualified to marry my daughter!!");
 }
-// Marrige system ends here
+
