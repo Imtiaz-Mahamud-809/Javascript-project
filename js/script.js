@@ -25,7 +25,7 @@ if (marks > 100 || marks < 0) {
 
 let gender = "Male";
 let minIncome = 100000;
-let location = "Dhaka";
+let area = "Dhaka";
 let age = 21;
 let jobCriteria = "governmentJob";
 
