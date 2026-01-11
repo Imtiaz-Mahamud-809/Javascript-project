@@ -1,47 +1,43 @@
+// Grade system CODE
 
-
-let marks = -76;
+let marks = 86;
 if (marks > 100 || marks < 0) {
-  console.log("Your marks is invalid please enter correct marks!!!");
-} else if (marks > 32 && marks <= 39) {
-  console.log(
-    "You just pass the exam and you got D . But very poor performance"
-  );
-} else if (marks > 39 && marks < 50) {
-  console.log("You have got C . Also very poor needs to improve!");
+  console.log("Given data is incorrect.....");
+} else if (marks >= 33 && marks < 40) {
+  console.log("Your grade is D.");
+} else if (marks >= 40 && marks < 50) {
+  console.log("Your grade is C.");
 } else if (marks >= 50 && marks < 60) {
-  console.log("You have got B . Also very poor needs to improve!");
+  console.log("Your grade is B.");
 } else if (marks >= 60 && marks < 70) {
-  console.log("You have got A- . Also very poor needs to improve!");
+  console.log("Your grade is A-.");
 } else if (marks >= 70 && marks < 80) {
-  console.log("You have got A . Not bad but improvement needed!");
+  console.log("Your grade is A");
 } else if (marks >= 80 && marks <= 100) {
-  console.log("You have got A+ .Great result , good luck for future!");
+  console.log("Your grade is A+, Congratulations.");
 } else {
-  console.log("Your are failed!!");
+  console.log("Your are failed");
 }
 
-
+// Matrimony system code
 
 let gender = "Male";
-let minIncome = 100000;
 let area = "Dhaka";
-let age = 21;
-let jobCriteria = "governmentJob";
+let age = 25;
+let income = 999999;
 
 if (gender !== "Male") {
-  console.log(
-    "Ohh , We are looking or a perfect Male candidate in planet Earth. You just leave!!!"
-  );
-} else if (minIncome < 100000) {
-  console.log("You are too poor to marry. Income ennough money first.");
-} else if (location !== "Dhaka") {
-  console.log("Only Dhakaiya pola needed.");
-} else if (age < 21) {
-  console.log("Hey kid what are you doing here. Grow up first!!");
-} else if (jobCriteria !== "governmentJob") {
-  console.log("We only want Shorkai Takla . private job has no Garunttee");
-} else {
-  console.log("Congratulation you qualified to marry my daughter!!");
+  console.log("Sorry we are looking for male only,.....");
+} 
+else if (area !== "Dhaka") {
+  console.log("We are looking for Dhaka only");
+} 
+else if (income < 100000) {
+  console.log("You are  poor . better luck next time....");
+} 
+else if (age <= 22) {
+  console.log("Grow up buddy.....");
+} 
+else {
+  console.log("Congratulation you are selected");
 }
-
